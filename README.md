@@ -36,6 +36,56 @@
 ## 🧠 Project Overview
 
 **ClientFlow CRM** is a premium SaaS-style dashboard built to manage a complete business workflow:
+✨ Core Features
+<table> <tr> <td width="50%">
+📊 CRM Dashboard
+KPI cards
+Sales pipeline overview
+Recent activity feed
+Revenue snapshot
+Hot leads and meetings
+</td> <td width="50%">
+👥 Client Management
+Client profile cards
+Revenue and project tracking
+Status filters
+Contact information
+Profile detail modal
+</td> </tr> <tr> <td width="50%">
+🔥 Lead Pipeline
+Kanban-style lead stages
+Add lead modal
+Search and filters
+Priority badges
+Move lead actions
+</td> <td width="50%">
+💼 Deal Tracking
+Deal value
+Probability score
+Close date
+Deal activity
+Stage movement
+</td> </tr> <tr> <td width="50%">
+✅ Task Management
+To Do / In Progress / Review / Done
+Priority filters
+Checklist progress
+Due dates
+Task detail modal
+</td> <td width="50%">
+📈 Reports & Analytics
+Revenue charts
+Lead source quality
+Conversion rate
+Team performance
+Report detail modal
+</td> </tr> </table>
+🎬 Animated Preview
+<div align="center"> <img src="https://user-images.githubusercontent.com/74038190/216655848-6f55c9b4-4f79-4f3b-9b6f-44b3c1e7f0a4.gif" width="760" /> <br/>
 
+Replace this GIF later with your own ClientFlow screen recording for maximum portfolio impact.
+
+</div>
 ```txt
+
 Leads → Clients → Deals → Tasks → Reports → Growth
