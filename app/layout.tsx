@@ -1,20 +1,17 @@
-import type { Metadata } from "next";
 import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "ClientFlow CRM - Premium CRM Dashboard",
-  description:
-    "ClientFlow is a premium CRM dashboard for freelancers, agencies, and small businesses to manage leads, clients, deals, tasks, and revenue.",
-};
+import Navbar from "./components/Navbar";
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-[#020617] text-white">
+        <Navbar />
+        <main className="pt-24">{children}</main>
+      </body>
     </html>
   );
 }

@@ -2,13 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import {
-  BarChart3,
-  Menu,
-  X,
-  ArrowRight,
-} from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { name: "Features", href: "#features" },
@@ -21,83 +15,64 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
-      <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-[#020617]/70 border-b border-white/10">
-        <div className="container-custom flex items-center justify-between py-4">
-          <Link href="/" className="flex items-center gap-2">
-            <BarChart3 className="text-cyan-400" />
-            <span className="font-black text-xl">
-              Client<span className="text-cyan-400">Flow</span>
-            </span>
-          </Link>
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#020617]/80 backdrop-blur-lg border-b border-white/10">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-          <nav className="hidden md:flex items-center gap-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-sm text-slate-300 hover:text-cyan-300"
-              >
-                {link.name}
-              </a>
-            ))}
-          </nav>
+        {/* Logo */}
+        <Link href="/" className="text-xl font-bold text-white">
+          Client<span className="text-cyan-400">Flow</span>
+        </Link>
 
-          <div className="hidden md:flex items-center gap-3">
-            <Link href="/login" className="text-sm font-bold">
-              Login
-            </Link>
-
-            <Link
-              href="/register"
-              className="flex items-center gap-2 bg-blue-600 px-4 py-2 rounded-full text-sm font-bold hover:bg-blue-500"
+        {/* Desktop Menu */}
+        <nav className="hidden md:flex gap-8">
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-gray-300 hover:text-cyan-400 transition"
             >
-              Get Started <ArrowRight size={14} />
-            </Link>
-          </div>
+              {link.name}
+            </a>
+          ))}
+        </nav>
 
-          <button
-            onClick={() => setOpen(true)}
-            className="md:hidden text-white"
+        {/* Right Buttons */}
+        <div className="hidden md:flex gap-4">
+          <Link href="/login" className="text-gray-300 hover:text-white">
+            Login
+          </Link>
+          <Link
+            href="/register"
+            className="bg-gradient-to-r from-blue-600 to-cyan-400 px-4 py-2 rounded-lg text-white font-semibold"
           >
-            <Menu />
-          </button>
+            Get Started
+          </Link>
         </div>
-      </header>
+
+        {/* Mobile Button */}
+        <button
+          className="md:hidden text-white"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? <X /> : <Menu />}
+        </button>
+      </div>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            className="fixed inset-0 bg-black/80 z-[9999]"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            <div className="p-6">
-              <button onClick={() => setOpen(false)}>
-                <X />
-              </button>
-
-              <div className="mt-10 space-y-6">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    onClick={() => setOpen(false)}
-                    className="block text-lg"
-                  >
-                    {link.name}
-                  </a>
-                ))}
-
-                <Link href="/login">Login</Link>
-                <Link href="/register">Register</Link>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </>
+      {open && (
+        <div className="md:hidden px-6 pb-4 flex flex-col gap-4">
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-gray-300"
+              onClick={() => setOpen(false)}
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
+      )}
+    </header>
   );
 }

@@ -77,3 +77,19 @@ body {
     radial-gradient(circle at 90% 20%, rgba(56, 189, 248, 0.1), transparent 30%),
     #020617;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 110px;
+}
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix navbar offset */
+section {
+  scroll-margin-top: 100px;
+}
