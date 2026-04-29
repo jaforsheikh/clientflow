@@ -89,3 +89,21 @@ Replace this GIF later with your own ClientFlow screen recording for maximum por
 ```txt
 
 Leads → Clients → Deals → Tasks → Reports → Growth
+👨‍💻 Author
+<div align="center">
+Md Jafar Ali Shaikh
+
+Full Stack Web Developer
+
+📧 Email: jaforsheikh258@gmail.com
+📱 WhatsApp: +8801716506412
+🔗 LinkedIn: https://www.linkedin.com/in/jafar-sheikh/
+📘 Facebook: https://www.facebook.com/Jafor.sheikh12
+
+</div>
+⭐ Support
+<div align="center">
+
+If this project inspires you, give it a ⭐ on GitHub.
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=22&duration=3000&pause=1000&color=FFC107&center=true&vCenter=true&width=650&lines=ClientFlow+is+not+just+a+dashboard;It+is+a+SaaS-level+portfolio+weapon;Built+to+impress+clients+and+recruiters" /> </div> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:163C96,100:020617&height=140&section=footer" /> ``
