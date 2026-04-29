@@ -103,4 +103,4 @@ Full Stack Web Developer
 
 If this project inspires you, give it a ⭐ on GitHub.
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=22&duration=3000&pause=1000&color=FFC107&center=true&vCenter=true&width=650&lines=ClientFlow+is+not+just+a+dashboard;It+is+a+SaaS-level+portfolio+weapon;Built+to+impress+clients+and+recruiters" /> </div> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:163C96,100:020617&height=140&section=footer" /> ``
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=22&duration=3000&pause=1000&color=FFC107&center=true&vCenter=true&width=650&lines=ClientFlow+is+not+just+a+dashboard;It+is+a+SaaS-level+portfolio+weapon;Built+to+impress+clients+and+recruiters" /> </div> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:163C96,100:020617&height=140&section=footer" /> 
