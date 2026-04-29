@@ -82,9 +82,6 @@ Report detail modal
 </td> </tr> </table>
 🎬 Animated Preview
 <div align="center"> <img src="https://user-images.githubusercontent.com/74038190/216655848-6f55c9b4-4f79-4f3b-9b6f-44b3c1e7f0a4.gif" width="760" /> <br/>
-
-Replace this GIF later with your own ClientFlow screen recording for maximum portfolio impact.
-
 </div>
 ```txt
 
@@ -92,15 +89,15 @@ Leads → Clients → Deals → Tasks → Reports → Growth
 👨‍💻 Author
 <div align="center">
 Md Jafar Ali Shaikh
-
 Full Stack Web Developer
 
 📧 Email: jaforsheikh258@gmail.com
 📱 WhatsApp: +8801716506412
 🔗 LinkedIn: https://www.linkedin.com/in/jafar-sheikh/
 📘 Facebook: https://www.facebook.com/Jafor.sheikh12
-
 </div>
+
+
 ⭐ Support
 <div align="center">
 
