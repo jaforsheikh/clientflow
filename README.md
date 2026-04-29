@@ -1,114 +1,41 @@
-🚀 ClientFlow CRM Dashboard
-💼 Premium SaaS-Level CRM Dashboard
+<div align="center">
 
-Built with Next.js + TypeScript + Tailwind + Framer Motion
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:163C96,100:38BDF8&height=230&section=header&text=ClientFlow%20CRM&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 
-🌐 Live Demo: Coming Soon
-💻 Portfolio Project: High-End SaaS UI / CRM System
-🎯 Purpose: Client Management + Lead Tracking + Business Workflow
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=25&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Premium+SaaS-Level+CRM+Dashboard;Leads+%E2%86%92+Clients+%E2%86%92+Deals+%E2%86%92+Revenue;Interactive+Cards+%2B+Animated+Modals;Built+for+Portfolio%2C+Clients+%26+Recruiters" />
 
-✨ Overview
+<br/>
 
-ClientFlow is a modern, interactive CRM dashboard designed for:
+<img src="https://img.shields.io/badge/Next.js-020617?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-163C96?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=020617" />
+<img src="https://img.shields.io/badge/Framer_Motion-FFC107?style=for-the-badge&logo=framer&logoColor=020617" />
 
-Freelancers
-Agencies
-Consultants
-Sales Teams
+<br/><br/>
 
-It provides a complete business workflow system:
+### 💼 A premium CRM dashboard for agencies, freelancers, consultants, and sales teams.
 
-👉 Leads → Clients → Deals → Tasks → Reports → Growth
+</div>
 
-⚡ Core Features
-📊 CRM System
-Lead pipeline (New → Qualified → Proposal → Closed)
-Client management system
-Deal tracking with revenue & probability
-Task management with status flow
-Reports & analytics dashboard
-🎨 UI / UX (SaaS Level)
-Dark premium design (navy + blue + cyan)
-Fully responsive (mobile + tablet + desktop)
-Smooth animations (Framer Motion)
-Interactive cards + modal system
-Dashboard layout with sidebar
-🧠 Smart Interactions
-Clickable cards → modal details
-Search + filters
-Status-based UI (badges, progress)
-Animated transitions
-Toggle pricing (monthly/yearly)
-🧱 Tech Stack
-Technology	Usage
-Next.js 14+	App Router, Routing
-TypeScript	Type Safety
-Tailwind CSS	Styling
-Framer Motion	Animations
-Lucide React	Icons
-React Hooks	State & Logic
-📁 Project Structure
-app/
- ├── components/        → Shared UI (Navbar, Footer, Modal)
- ├── sections/          → Landing page sections
- ├── dashboard/         → Dashboard main page
- ├── leads/             → Leads pipeline
- ├── clients/           → Client management
- ├── deals/             → Deal tracking
- ├── tasks/             → Task system
- ├── reports/           → Analytics
- ├── settings/          → User settings
- ├── login/             → Auth page
- ├── register/          → Signup page
-🎯 Key Highlights
+---
 
-✔ Real SaaS product structure
-✔ Multi-page dashboard
-✔ Interactive UI everywhere
-✔ Business-focused design
-✔ Portfolio-ready project
+## 🚀 Live Demo
 
-🚀 Getting Started
-git clone https://github.com/yourusername/clientflow.git
-cd clientflow
-npm install
-npm run dev
+<div align="center">
 
-Open:
+| Preview | Links |
+|---|---|
+| 🌐 Live Website | `Add your Vercel link here` |
+| 💻 Repository | `Add your GitHub repo link here` |
+| 👨‍💻 Developer | Md Jafar Ali Shaikh |
 
-http://localhost:3000
-🔥 What Makes This Project Special?
+</div>
 
-👉 Not a basic CRUD app
-👉 Not a simple landing page
+---
 
-This is:
+## 🧠 Project Overview
 
-✔ SaaS-level dashboard UI
-✔ Real business workflow
-✔ Client-winning portfolio project
+**ClientFlow CRM** is a premium SaaS-style dashboard built to manage a complete business workflow:
 
-💰 Monetization Potential
-
-You can use this project to:
-
-Sell CRM dashboard UI ($300 – $2000)
-Convert freelance clients
-Build SaaS startup base
-Showcase as premium portfolio
-👨‍💻 Author
-
-Md Jafar Ali Shaikh
-
-📧 Email: jaforsheikh258@gmail.com
-📱 WhatsApp: +8801716506412
-🔗 LinkedIn: https://www.linkedin.com/in/jafar-sheikh/
-🌐 Facebook: https://www.facebook.com/Jafor.sheikh12
-
-⭐ Final Note
-
-If you like this project:
-
-👉 Star ⭐ the repo
-👉 Use it in your portfolio
-👉 Upgrade it into a real SaaS
+```txt
+Leads → Clients → Deals → Tasks → Reports → Growth
